@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400;1,500;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5));
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.coming_soon{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #1b1c1e;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    letter-spacing: 9px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#launch{
+    font-size: 30px;
+    word-spacing: 15px;
+}
